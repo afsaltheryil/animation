@@ -1,0 +1,17 @@
+#boxx
+{
+border-style:solid;
+border-width:1px;
+background-color:red;
+width:100px;
+height:100px;
+padding:100px 100px 100px 100px;
+-webkit-animation-name: example;
+    -webkit-animation-duration: 25s;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: blue;}
+@keyframes example {
+    from {left;}
+    to {right;}
